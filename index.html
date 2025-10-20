@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/style.css" rel="stylesheet">
+  </head>
+  <body class="  top-0 p-0 m-0 box-border bg-black text-white ">
+    <header class="  sticky top-0 left-0 border-t border-b border-gray-400 p-6 mb-4  mx-auto flex justify-between items-center w-full bg-black z-50">
+      <!--------Logo----->
+      <div class="flex items-center space-x-3 gap-4">
+       
+  <a href="index.html" class="font-bold text-xl lg:text-3xl leading-tight ">
+    FAVOURLAND <br>CHRISTIAN CHURCH
+  </a>
+</div>
+      <div class="flex items-center space-x-2 ">
+        <!--------Give link-->
+        <a href="give.html" class="px-2 flex py-2 rounded-xl bg-purple-500 gap-2">Give</a>
+      
+      </div>
+      <!-----------LINKS-->
+      <ul class="hidden lg:flex space-x-5">
+        <li><a href="new.html" class="hover:text-blue-500 text-xl font-semibold">I'm New</a></li>
+      <li><a href="service.html" class="hover:text-blue-500 text-xl font-semibold">Services</a></li>
+      <li><a href="home.html" class="hover:text-blue-500 text-xl font-semibold">Home</a></li>
+    <li><a href="about.html" class="hover:text-blue-500 text-xl font-semibold">About Us</a></li>
+    </ul>
+    <!----------hamburger button-->
+    
+      <button id="ham-btn" class="text-3xl lg:hidden z-40" aria-label="Toggle navigation">&#9776;</button>
+
+    
+    </header>
+    <!----Haburger Links-->
+    <div id="menu-ham" class="bg-black/60   border h-screen border-black/10 lg:hidden space-y-3 w-full hidden fixed text-xl font-light left-0  z-30">
+      <a href="new.html" class="hover:text-blue-300 block border-b-1 border-gray-400  ">I'm New</a>
+      <a href="service.html" class="hover:text-blue-300 block border-b-1 border-gray-400">Services</a>
+      <a href="home.html" class="hover:text-blue-300 block border-b-1 border-gray-400 ">Home Groups</a>
+      <a href="about.html" class="hover:text-blue-300 block border-gray-400 ">About Us</a>
+    </div>
+    <!------Big heading-->
+<section  class=" relative mt-10 text-center py-30 md:py-0 bg-cover bg-no-repeat flex flex-col md:flex-row md:justify-center md:items-center md:h-[60vh] rounded-lg shadow-2xl " style="background-image: url(images/WhatsApp\ Image\ 2025-10-16\ at\ 00.25.57_7e270efa.jpg);" >
+  <!------OPTIONAL OVERLAY FOR READABILITY-->
+  <div class="absolute inset-0 bg-black/50">
+    <!-----Text and buttons-->
+    <div class="relative z-10 flex flex-col items-center justify-center px-4 text-center mt-10  sm:mt-15 md:mt-20 lg:mt-40">
+    <h1 class="font-bold text-3xl md:text-4xl text-gray-200 text-center items-center pt-6">FavourLand Church is more than a place to <span class="text-amber-300">attend</span>, it is a place to call <span class="text-yellow-500">home</span></h1>
+    </div>
+  </div>
+</section>
+<!-------SERVICE LINK-->
+<div class=" bg-black text-white h-72 overflow-hidden flex items-center">
+  <!-----Curved yellow background-->
+  <div class="absolute top-0 left-0 w-32 h-full bg-yellow-300 rounded-r-full opacity-70 blur-2xl md:w-48 ">
+  </div>
+  <!------LINK PADDING-->
+  <div class="mt-5 mb-4  flex flex-col sm:flex-row items-center px-4 py-6 text-center font-medium gap-5  container  overflow-hidden  justify-center">
+    <a href="service.html" class="px-12 py-2 text-white border-2  rounded-3xl text-center text-lg transform transition duration-300 hover:scale-105 hover:bg-amber-500 block mx-auto">Service</a>
+    
+    <a href="home.html" class="px-12 py-2 text-white border-2  rounded-3xl text-center text-lg block shadow-lg transform transition duration-300 hover:scale-105 hover:bg-amber-500  sm:text-sm  mx-auto"> Groups</a>
+    
+    <a href="give.html" class="px-14 py-2 text-white border-2  rounded-3xl text-center text-lg hover:text-white transform transition duration-300 hover:scale-105 hover:bg-amber-500 block mx-auto">Give</a>
+  </div>
+</div>
+<div class="relative flex justify-center items-center h-screen md:ml-80  overflow-hidden">
+  <!---Back Image-->
+  <img src="images/WhatsApp Image 2025-10-16 at 00.25.55_dc1803e3.jpg" alt="Photo" class="parallax absolute w-52 h-100 object-cover rounded-xl translate-x-8 translate-y-8 z-10  md:translate-x-10 md:translate-y-10 ml-10 md:w-90 md:h-160 md:ml-30  transition-transform duration-500 ease-out 
+  
+  ">
+  <!----front image-->
+  <img src="images/WhatsApp Image 2025-10-16 at 00.25.56_f08cd85a.jpg" alt="Photo" class=" parallax absolute w-48 h-73 object-cover rounded-xl shadow-2xl z-20 md:w-110 md:h-100  transition-transform duration-700 ease-in ">
+</div>
+</section>
+ <!-------------FIX SQUASHING WHEN YOU DRAG-->
+ <section class="bg-black text-white py-20 px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
+    <!----Card 1: I' New-->
+    <a href="new.html" class="bg-black rounded-2xl p-8 flex flex-col items-center text-center relative hover:bg-gray-800 transition duration-300 ">
+      <!-------Circle Icon-->
+      <div class="w-20 h-20 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center mb-6">
+<svg xmlns="https://www.w3.org/2000/svg" class="w-10 h-10 text-white " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 9.5L12 3l9 6.5v10.5a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z 1212-2m0 017-7 7 7M13 5v6h6M5 10v10h14V10"></path>
+    </svg>
+      </div>
+      <!-----Text-->
+      <h3 class="text-2xl font-bold mb-3">I'm New</h3>
+      <p class="text-gray-300 mb-6 max-w-sm">Come and do life wih us. See what your next steps are at FavourLand Christian Church.</p>
+      <!------  Green dots-->
+      <div class="absolute to-6 right-6 flex items-center gap-1">
+        <div class="w-3 h-3 b rounded-full">
+          <div class="text-gray-400 text-lg">....</div>
+        </div>
+      </div>
+    </a>
+    <!------Card two-->
+<a href="home.html" class="bg-black rounded-2xl p-8 flex hover:bg-gray-800 items-center flex-col text-center transition duration-300">
+  <!---Circular icon-->
+  <div class="h-20 w-20 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-6">
+    <svg xmlns="https://www.w3.org/2000/svg" class="w-10 h-10 text-white " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 9.5L12 3l9 6.5v10.5a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z 1212-2m0 017-7 7 7M13 5v6h6M5 10v10h14V10"></path>
+    </svg>
+  </div>
+  <!----Text-->
+  <h3 class="text-2xl font-bold mb-3">Home </h3>
+  <p class="text-gray-300 mb-6 max-w-sm">Want to connect with others? Find new friendships and more here?</p>
+</a>
+<!----Card  3-->
+<a href="new.html#contact1" class="bg-black rounded-2xl p-8 flex hover:bg-gray-800 items-center flex-col text-center transition duration-300">
+  <!---Circular icon-->
+  <div class="h-20 w-20 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-6">
+    <svg xmlns="https://www.w3.org/2000/svg" class="w-10 h-10 text-white " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 9.5L12 3l9 6.5v10.5a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z 1212-2m0 017-7 7 7M13 5v6h6M5 10v10h14V10"></path>
+    </svg>
+  </div>
+  <!----Text-->
+  <h3 class="text-2xl font-bold mb-3">Prayer Request</h3>
+  <p class="text-gray-300 mb-6 max-w-sm">Have a Prayer Request? Learn on how to act on it through our website.</p>
+</a>
+<!-------Card 4-->
+<a href="service.html" class="bg-black rounded-2xl p-8 flex hover:bg-gray-800 items-center flex-col text-center transition duration-300">
+  <!---Circular icon-->
+  <div class="h-20 w-20 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-6">
+    <svg xmlns="https://www.w3.org/2000/svg" class="w-10 h-10 text-white " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 9.5L12 3l9 6.5v10.5a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z 1212-2m0 017-7 7 7M13 5v6h6M5 10v10h14V10"></path>
+    </svg>
+  </div>
+  <!----Text-->
+  <h3 class="text-2xl font-bold mb-3">In Person Service </h3>
+  <p class="text-gray-300 mb-6 max-w-sm">See Our schedule, location and register for upcoming service here.</p>
+</a>
+<!-----Card 5-->
+<a href="new.html#contact1" class="bg-black rounded-2xl p-8 flex hover:bg-gray-800 items-center flex-col text-center transition duration-300">
+  <!---Circular icon-->
+  <div class="h-20 w-20 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-6">
+    <svg xmlns="https://www.w3.org/2000/svg" class="w-10 h-10 text-white " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 9.5L12 3l9 6.5v10.5a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z 1212-2m0 017-7 7 7M13 5v6h6M5 10v10h14V10"></path>
+    </svg>
+  
+  </div>
+  <!----Text-->
+  <h3 class="text-2xl font-bold mb-3">Volunteer </h3>
+  <p class="text-gray-300 mb-6 max-w-sm">Would like to volunteer? Tell us more about where you can help and grow with us.</p>
+</a>
+<!----Card 6-->
+<a href="give.html" class="bg-black rounded-2xl p-8 flex hover:bg-gray-800 items-center flex-col text-center transition duration-300">
+  <!---Circular icon-->
+  <div class="h-20 w-20 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500 flex items-center justify-center mb-6">
+    <svg xmlns="https://www.w3.org/2000/svg" class="w-10 h-10 text-white " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 9.5L12 3l9 6.5v10.5a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z 1212-2m0 017-7 7 7M13 5v6h6M5 10v10h14V10"></path>
+    </svg>
+  </div>
+  <!----Text-->
+  <h3 class="text-2xl font-bold mb-3">Give</h3>
+  <p class="text-gray-300 mb-6 max-w-sm">This where you can give to our ministry! Let's make a difference in this city together.</p>
+</a>
+  </div>
+ </section>
+ <!-- ===== Footer Section ===== -->
+<footer class="bg-black text-gray-300 py-10 px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+    <!-- Logo & Church Info -->
+    <div>
+      <h2 class="text-2xl font-bold text-white mb-3">FAVOURLAND</h2>
+      <p class="text-sm leading-relaxed">
+        Christain Church — transforming lives through the Word, prayer, and community.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-3">Quick Links</h3>
+      <ul class="space-y-2 text-sm">
+        <li><a href="home.html" class="hover:text-purple-400 transition">Home</a></li>
+        <li><a href="service.html" class="hover:text-purple-400 transition">Services</a></li>
+        <li><a href="about.html" class="hover:text-purple-400 transition">About Us</a></li>
+        <li><a href="give.html" class="hover:text-purple-400 transition">Give</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-3">Contact</h3>
+      <p class="text-sm">📍 Paradise Estate, Enugu State</p>
+      <p class="text-sm">📞 +234 810 555 2034</p>
+      <p class="text-sm">✉ favourlandchurch@gmail.com</p>
+    </div>
+
+    <!-- Follow Us -->
+    <div>
+      <h3 class="text-xl font-semibold text-white mb-3">Follow Us</h3>
+      <div class="flex space-x-4 text-xl">
+        <a href="#" class="hover:text-purple-400 transition"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="hover:text-purple-400 transition"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-purple-400 transition"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Copyright -->
+  <div class="border-t border-gray-700 mt-10 pt-4 text-center text-sm">
+    © 2025 Favourland Christian Church. All Rights Reserved.
+  </div>
+</footer>
+  </body>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
